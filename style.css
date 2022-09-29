@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0D192C;
+    font-family: 'Outfit', sans-serif;
+}
+.mainContainer {
+    position: relative;
+    width: 350px;
+    padding: 24px;
+    padding-bottom: 32px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+}
+.middle {
+    opacity: 0;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+}
+.middle:hover {
+    opacity: 1;
+    
+}
+.wtf:hover .equilibrium {
+   background: #00FFF8;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+.wtf:hover .middle {
+  opacity: 1;
+}
+.equilibrium {
+    width: 100%;
+    border-radius: 8px;
+    transition: .3s ease;
+}
+.content h1  {
+    margin: 24px 0 16px 0;
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+}
+.content p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 16px 0;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #2E405A;;
+}
+.ethereum {
+    display: flex;
+}
+.ethereum img {
+    width: 10px;
+    height: 18px;
+}
+.ethereum p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    margin-left: 6.5px;
+}
+.aboutDays {
+    display: flex;
+}
+.aboutDays p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-left: 6.5px;
+}
+.avatarContent {
+    display: flex;
+    align-items: center;
+}
+.avatarContent img {
+    width: 33px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.avtor {
+    font-size: 16px;
+    margin-left: 16px;
+    color: white;
+}
+.avtor span {
+    color: #8BACD9;
+}
